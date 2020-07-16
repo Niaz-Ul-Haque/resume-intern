@@ -1,0 +1,135 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Mohammed Niaz Ul Haque}}\\
+	Toronto, ON $\cdot$ theniaz619@gmail.com $\cdot$ (647)6576450 $\cdot$ github.com/Niaz-Ul-Haque\\
+\end{center}
+%==== Summary ====%
+
+\text A passionate programmer eager to contribute to team success through hard work, attention-to-detail and excellent organizational skills. Possess a clear understanding of Object-Oriented Programming and implementation of design patterns. Gained experience in developing and working on applications, forms, and databases. Team-oriented and dedicated with good verbal and written communication skills.\\
+\vspace{2mm}
+%==== Education ====%
+\header{Education}
+\textbf{Seneca College} - Newnham Campus\hfill Toronto, ON\\
+{Advanced Diploma} Computer Programming and Analysis \hfill Jan 2019 - Current\\
+\vspace{2mm}
+\header{Skills}\vspace{1mm}
+\begin{tabular}{ l l  }
+	Language/Technology: & Java, JavaScript, C++, C, SQL, HTML5, CSS3, TypeScript, SCSS  \\
+	Library/Framework:   & ReactJS, AngularJS, ExpressJS, JQuery, MomentJS, Lodash, MaterialUI \\
+	Tools/OS:               & Git, Postman, Eclipse, Visual Studio, SQL Developer, Linux/UNIX  \\
+	Database Engines:      & Oracle, SQL Server, MongoDB (Atlas), Firebase                            \\
+	Professional:      & Full Stack, Software Development Life Cycle, Database Design/Development 
+                            \\
+\end{tabular}
+\vspace{0.3mm}
+
+\header{Projects}\vspace{0.3mm}
+{\textbf{AsahisDen}} {\sl NodeJS, ExpressJS , MongoDB, HandlebarJS} \hfill asahisden.herokuapp.com\\
+$\cdot$ Developed eCommerce web application following {\textbf{Model-View-Controller}} design pattern leveraging HandlebarsJS template engine and ExpressJS framework.\\
+$\cdot$ Can perform {\textbf{CRUD}} operations through MongoDB to fill product orders and register users.\\
+\vspace*{2mm}
+
+{\textbf{LendAHand}} {\sl NodeJS, ExpressJS, Firebase, Bootstrap3} \hfill WinHacks2020\\
+$\cdot$ A web application that helped those who are elderly, injured, or sick gain some mobility.\\
+\vspace*{2mm}
+
+{\textbf{Niazotify}} {\sl NodeJS, AngularJS, Bootstrap3, SpotifyAPI} \hfill Custom\\
+$\cdot$ Created an Angular application that takes advantage of the Spotify API to help search and fetch artists/albums information from Spotify.\\  $\cdot$ The UI/UX Design is compatible with people of all ages and was implemented in Bootstrap3 \\
+\vspace*{2mm}
+
+{\textbf{We-Ar}} {\sl NodeJS, ExpressJS, MongoDB, Bootstrap3} \hfill NewHacks2020\\
+$\cdot$ Developed A clothing matching app that helps you dress better for professional or casual settings.\\
+\vspace*{2mm}
+
+{\textbf{COVID-Tracker}} {\sl ReactJS, NodeJS, MaterialUI, SCSS, ChartsJS} \hfill Custom\\
+$\cdot$ Developed a COVID-19 Tracker/Stats Application using React with the addition of ChartsJS, MaterialUI, and many other modules.\\ $\cdot$ Data of {\textbf{250+}} countries is fetched from the COVID-19 API using the Async/Await syntax and React Hooks,   and statistics is displayed in cards as well as in charts.\\
+\vspace*{2mm}
+
+%==== Experience ====%
+\header{Work History}
+\vspace{0.6mm}
+
+\textbf{Private Tutor} \hfill Riyadh, KSA\\
+\textit{Self-Employed} \hfill May 2015 - Dec 2018\\\vspace*{0.5mm}
+A web application that helped those who are elderly, injured, or sick gain some mobility.\\
+\vspace*{2mm}
+
+\textbf{Private Tutor} \hfill Riyadh, KSA\\
+\textit{Self-Employed} \hfill May 2015 - Dec 2018\\\vspace*{0.5mm}
+A web application that helped those who are elderly, injured, or sick gain some mobility.\\
+\vspace*{2mm}
+
+\ 
+\end{document}
