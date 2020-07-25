@@ -3,7 +3,8 @@ Official resume that I'll be using to search for coops/internships for Winter 20
 
 Also will be addding my Part-time work resume too.
 
-1 - v1.0
-2 - v2.0
+# 1 - v1.0
+
+# 2 - v2.0
 
 Added the pdf format of my resume.
