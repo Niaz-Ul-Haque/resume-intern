@@ -5,6 +5,6 @@ Also will be addding my Part-time work resume too.
 
 # 1 - v1.0
 
-# 2 - v2.0
+# 2 - v2.0, v2.1
 
 Added the pdf format of my resume.
