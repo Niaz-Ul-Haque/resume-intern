@@ -1,4 +1,4 @@
-## SOON
+## under cons
 
-## Under construction - Updated resume for coops/internships
+## Under construction - Updated resume for internships. 
 Soon
