@@ -1,4 +1,4 @@
-## under cons
+## Resume DOne, desc loading only
 
-## Under construction - Updated resume for internships. 
-Soon
+## Resume doe, desc loading
+ggwp
