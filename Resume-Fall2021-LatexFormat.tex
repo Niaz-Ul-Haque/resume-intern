@@ -1,0 +1,155 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Mohammed Niaz Ul Haque}}\\
+	Scarborough, ON $\cdot$ theniaz619@gmail.com $\cdot$ (647) 657-6450\\
+	linkedin.com/in/mohammed-niaz-ul $\cdot$ github.com/Niaz-Ul-Haque\\
+\end{center}
+%==== Summary ====%
+
+\text Seeking a challenging co-op position in IT that would allow me to further develop my technical skills while contributing to the goals of your organization. \\
+\vspace{2mm}
+
+{\large\header{Profile}}\vspace{0.3mm}
+$\cdot$ Highly self-motivated, and well-organized individual with  strong communication skills.\\
+$\cdot$ Good at problem-solving, quick learner with high curiosity, \& excellent time management skills.\\
+$\cdot$ Fluent in English, Bengali, Hindi, Urdu, and conversational in Korean, and Arabic.\\
+$\cdot$ Ability to multitask efficiently and precisely under pressure.\\
+$\cdot$ Knowledge of SDLC, Object-Oriented programming, and MVC\\
+\vspace{2mm}
+
+%==== Education ====%
+{\large\header{Education}}
+\textbf{Seneca College} - Newnham Campus\hfill Toronto, ON\\
+{Advanced Diploma} - Computer Programming and Analysis | GPA 3.7 \hfill Jan 2019 - Current\\
+
+\vspace{2mm}
+{\large\header{Work History}}
+\vspace{0.6mm}
+\textbf{Full Stack Developer} \hfill Toronto, Ontario\\
+\textit{Vroom} \hfill Sept 2020 - Present\\\vspace*{0.5mm}
+$\cdot$ Design, code, and support software solutions that can easily be scaled depending on client needs
+
+\\
+$\cdot$ Maximize applications’ efficiency, data quality, scope, operability, and flexibility.\\
+$\cdot$ Participate in user requirements meetings in order to transform client needs into proposed app designs \\
+\vspace*{2mm}
+
+\textbf{Procurement Supervisor} \hfill Riyadh, KSA\\
+\textit{Wadi Grocery} \hfill Jan 2018 - Dec 2018\\\vspace*{0.5mm}
+$\cdot$ Proved successful working within tight deadlines and fast-paced atmosphere\\
+$\cdot$ Established excellent relationships with managers and fellow team members to achieve success and support positive work environment.\\
+$\cdot$ Tracked inventory shipments and prepared spreadsheets detailing item information.
+\vspace*{2mm}
+
+
+{\large\header{Skills}}\vspace{1mm}
+\begin{tabular}{ l l  }
+	Languages/Technology: & Java, JavaScript, C/C++, C\#, TypeScript  \\
+	Web Development:   & Node, React, Angular, Express, ASP.NET, HTML, CSS \\
+	Tools/OS:               & Git, Eclipse, Visual Studio, MS Office, Linux, Windows  \\
+	Database Engines:      & Oracle, SQL Server, MongoDB, Firebase                            \\
+
+\end{tabular}
+\vspace{2mm}
+
+{\large\header{Projects}}\vspace{0.3mm}
+{\textbf{Asahi'sDen}} {\sl Node, Express , MongoDB, Handlebars} \\
+$\cdot$ Programmed eCommerce web application following {\textbf{MVC}} design pattern leveraging {\textbf{Handlebars} template engine and {\textbf{Express}} framework.\\
+$\cdot$ Built a responsive design using {\textbf{Bootstrap4} and connected to a database with {\textbf{MongoDB}\\
+\vspace*{2mm}
+
+{\textbf{Vroom-Rent}} {\sl React, Node, Express, MongoDB} \\
+$\cdot$ Currently developing a WebApp following Agile SDLC for a client that helps user search and rent apartments available with ease\\
+$\cdot$ User are able to securely {\textbf{Signup/Login} and book an appointment with the landlord/s\\
+$\cdot$ Implemented {\textbf{Google Maps API} to the app, to pin point the exact location of the apartment.\\
+\vspace*{2mm}
+{\textbf{nlinks}} {\sl Node, Typescript} \\
+$\cdot$ Designed and coded an Open-Sourced {\textbf{Node CLI} that find's the status of websites\\
+$\cdot$ Made use of different types of packages from NPM and API's to automate the CLI\\
+$\cdot$ The CLI can load data from any type of files and overwrite if wanted.\\
+
+\vspace*{2mm}
+
+{\textbf{COVID-Tracker}} {\sl React, Node, MaterialUI, ChartsJS} \\
+$\cdot$ Manufactured a COVID-19 Tracker App using React, {\textbf{ChartsJS}}, and {\textbf{MaterialUI}} for the UI Design.\\ $\cdot$ Data is fetched from the COVID-19 API using {\textbf{Async/Await}} syntax and {\textbf{React Hooks}}, and statistics is displayed in cards as well as in charts.\\
+\vspace*{2mm}
+
+
+
+
+%==== Experience
+
+\ 
+\end{document}
